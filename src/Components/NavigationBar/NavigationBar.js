@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../../assets/icons/logo.svg'
-
+import './navigationBar.scss';
 
 const NavigationBar = () => {
     const navList = [
@@ -27,7 +27,7 @@ const NavigationBar = () => {
     ];
 
 return (
-    <container>
+    <container className='nav'>
         <div>
             <figure>
                 <img src={Logo} alt='logo' />
@@ -41,7 +41,7 @@ return (
                 </a>
             ))}
         </div>
-        </container>
+    </container>
     )}
 
 export default NavigationBar;
