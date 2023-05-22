@@ -2,7 +2,6 @@ import React from 'react'
 import Logo from '../../assets/icons/logo.svg'
 import "./NavigationBar.scss"
 
-
 const NavigationBar = () => {
     const navList = [
         {
