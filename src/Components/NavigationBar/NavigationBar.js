@@ -1,47 +1,50 @@
 import React from 'react'
 import Logo from '../../assets/icons/logo.svg'
-
+import "./NavigationBar.scss"
 
 const NavigationBar = () => {
     const navList = [
         {
             item: "00",
-            name: "Home",
+            name: "HOME",
             url: ""
         },
         {
             item: "01",
-            name: "Destination",
+            name: "DESTINATION",
             url: ""
         },
         {
             item: "02",
-            name: "Crew",
+            name: "CREW",
             url: ""
         },
         {
             item: "03",
-            name: "Technology",
+            name: "TECHNOLOGY",
             url: ""
         },
     ];
 
 return (
-    <container>
-        <div>
-            <figure>
-                <img src={Logo} alt='logo' />
-            </figure>
-        </div>
-        <div>
-            {navList.map((item, index) => (
-                <a key={`${item.item} - ${item.name} - ${item.index}`} href={item.url}>
-                    <li>{item.item}</li>
-                    <li>{item.name}</li>
-                </a>
-            ))}
-        </div>
-        </container>
+    <container className="navBar">
+    <div>
+        <figure className='logo'>
+            <img src={Logo} alt='logo' />
+        </figure>
+    </div>
+        <hr />
+    <div className='navBarList'>
+        {navList.map((item, index) => (
+            <ul className='navMenu' key={`${item.item} - ${item.name} - ${item.index}`} href={item.url}>
+                {/* <ul className='navMenu'> */}
+                <li>{item.item}</li>
+                <li>{item.name}</li>
+                {/* </ul> */}
+            </ul>
+        ))}
+    </div>
+    </container>
     )}
 
 export default NavigationBar;
