@@ -6,7 +6,7 @@ import launchPortrait from "../../assets/technology/image-launch-vehicle-portrai
 // import launchLand from "../assets/technology/image-launch-vehicle-landscape.jpg";
 // import spaceportLand from "../assets/technology/image-spaceport-landscape.jpg";
 // import spaceLand from "../assets/technology/image-space-capsule-landscape.jpg";
-import './technology.scss';
+import './Technology.scss';
 import StepperChakra from '../Stepper/Stepper';
 
 const Technology = () => {
