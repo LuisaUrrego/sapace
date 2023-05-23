@@ -26,6 +26,7 @@ const Destination = () => {
         bgPosition="center"
         bgRepeat="no-repeat"
         minHeight="100vh"
+       
       >
         <Tabs defaultIndex={0} align="center"className="main" >
           <TabList className="main__tabs" sx={{ borderBottom: "none" }}>
@@ -83,39 +84,6 @@ const Destination = () => {
       </Box>
     </ChakraProvider>
 
-    // <main className='main'>
-    //     <section>
-    //         <div>
-    //             <h5>01</h5>
-    //         </div>
-    //         <div>
-    //             <h5>PICK YOUR DESTENATION</h5>
-    //         </div>
-    //         <div>
-    //             <figure>
-    //                 <img src= {Moon} alt='Moon'/>
-    //             </figure>
-    //         </div>
-    //     </section>
-    //     <section>
-    //         <div>
-    //             <h1>MOON</h1>
-    //         </div>
-    //         <div>
-    //             <h5>See our planet as you've never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you're there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</h5>
-    //         </div>
-    //     </section>
-    //     <section>
-    //         <div>
-    //             <h5>AVG. DISTANCE</h5>
-    //             <h5>Est. travel time</h5>
-    //         </div>
-    //         <div>
-    //             <h5>384,400 km</h5>
-    //             <h5>3 days</h5>
-    //         </div>
-    //     </section>
-    // </main>
   );
 };
 
