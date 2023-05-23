@@ -1,5 +1,8 @@
 * {
     margin: 0;
+    box-sizing: border-box;
+    // background-color: black;
+
 }
 
 .navBar {
@@ -8,14 +11,13 @@
     padding: 80px 0px 10px 30px;
     align-items: center;
     justify-content: space-between;
-    position: relative;
-    z-index: 2;
 }
 
 .navBarList {
     display: flex;
     text-align: center;
     align-items: center;
+  
 }
 
 .navMenu {
