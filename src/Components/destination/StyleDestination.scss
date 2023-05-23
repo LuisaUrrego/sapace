@@ -11,8 +11,9 @@
     &__text{
         color:$color-primary;
         top: 5rem;
-     
-     
-        
- }
+    }
+
+.background{
+    z-index: -1;
+}
 }

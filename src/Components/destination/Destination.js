@@ -21,7 +21,7 @@ const Destination = () => {
   return (
     <ChakraProvider>
       <Box
-        bgImage={`url(${BackgroundImage})`}
+        bgImage={`url(${BackgroundImage})`} className="background"
         bgSize="cover"
         bgPosition="center"
         bgRepeat="no-repeat"
