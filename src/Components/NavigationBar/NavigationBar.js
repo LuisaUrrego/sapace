@@ -1,28 +1,29 @@
 import React from 'react'
 import Logo from '../../assets/icons/logo.svg'
 import "./NavigationBar.scss"
+import { Link } from "react-router-dom";
 
 const NavigationBar = () => {
     const navList = [
         {
             item: "00",
             name: "HOME",
-            url: ""
+            url: "/"
         },
         {
             item: "01",
             name: "DESTINATION",
-            url: ""
+            url: "/destination"
         },
         {
             item: "02",
             name: "CREW",
-            url: ""
+            url: "/crew"
         },
         {
             item: "03",
             name: "TECHNOLOGY",
-            url: ""
+            url: "/technology"
         },
     ];
 
@@ -38,8 +39,8 @@ const NavigationBar = () => {
                 {navList.map((item, index) => (
                     <ul className='navMenu' key={`${item.item} - ${item.name} - ${item.index}`} href={item.url}>
                         {/* <ul className='navMenu'> */}
-                        <li>{item.item}</li>
-                        <li>{item.name}</li>
+                        <Link to={item.url}>{item.item}</Link>
+                        <Link to={item.url}>{item.name}</Link>
                         {/* </ul> */}
                     </ul>
       

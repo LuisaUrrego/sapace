@@ -13,7 +13,9 @@
         top: 5rem;
     }
 
-.background{
-    z-index: -1;
+.background img{
+    position: relative;
+    margin-top: 40%;
+    z-index: -2;
 }
 }
