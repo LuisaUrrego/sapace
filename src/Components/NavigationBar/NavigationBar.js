@@ -26,25 +26,27 @@ const NavigationBar = () => {
         },
     ];
 
-return (
-    <container className="navBar">
-    <div>
-        <figure className='logo'>
-            <img src={Logo} alt='logo' />
-        </figure>
-    </div>
-        <hr />
-    <div className='navBarList'>
-        {navList.map((item, index) => (
-            <ul className='navMenu' key={`${item.item} - ${item.name} - ${item.index}`} href={item.url}>
-                {/* <ul className='navMenu'> */}
-                <li>{item.item}</li>
-                <li>{item.name}</li>
-                {/* </ul> */}
-            </ul>
-        ))}
-    </div>
-    </container>
-    )}
+    return (
+        <container className="navBar">
+            <div>
+                <figure className='logo'>
+                    <img src={Logo} alt='logo' />
+                </figure>
+            </div>
+            <hr />
+            <div className='navBarList'>
+                {navList.map((item, index) => (
+                    <ul className='navMenu' key={`${item.item} - ${item.name} - ${item.index}`} href={item.url}>
+                        {/* <ul className='navMenu'> */}
+                        <li>{item.item}</li>
+                        <li>{item.name}</li>
+                        {/* </ul> */}
+                    </ul>
+      
+                ))}
+            </div>
+        </container>
+    )
+}
 
 export default NavigationBar;
