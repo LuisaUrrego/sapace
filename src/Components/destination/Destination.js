@@ -31,18 +31,18 @@ const Destination = () => {
         
        
       >
-        <Tabs defaultIndex={0} align="center"className="main" >
-          <TabList mt="20%" className="main__tabs" sx={{ borderBottom: "none" }}>
+        <Tabs mt="20%" defaultIndex={0} align="center"className="main" >
+          <TabList  className="main__tabs" sx={{ borderBottom: "none" }}>
             <Tab>Moon</Tab>
             <Tab>Mars</Tab>
             <Tab>Europa</Tab>
             <Tab>Titan</Tab>
           </TabList>
-          <TabPanels align="initial"  className="main__text">
-            <TabPanel className="main__text">
-              <Text fontSize={15} >01 PICK YOUR DESTENATION</Text>
+          <TabPanels align="initial" >
+            <TabPanel >
+              <Text fontSize={15}className="main__text" >01 PICK YOUR DESTENATION</Text>
               <Image boxSize="200px" fit="cover" src={Moon} />
-              <Heading fontSize={35}>MOON</Heading>
+              <Heading fontSize={35} className="main__principal">MOON</Heading>
               <Text fontSize={15}>
                 See our planet as you've never seen it before. A perfect
                 relaxing trip away to help regain perspective and come back
@@ -51,7 +51,7 @@ const Destination = () => {
               </Text>
             </TabPanel>
             <TabPanel>
-              <Text fontSize={15}>01 PICK YOUR DESTENATION</Text>
+              <Text fontSize={15}className="main__text">01 PICK YOUR DESTENATION</Text>
               <Image boxSize="200px" fit="cover" src={Mars} />
               <Heading fontSize={35}>MARS</Heading>
               <Text fontSize={15}>
@@ -61,7 +61,7 @@ const Destination = () => {
               </Text>
             </TabPanel>
             <TabPanel>
-              <Text fontSize={15}>01 PICK YOUR DESTENATION</Text>
+              <Text fontSize={15 }className="main__text">01 PICK YOUR DESTENATION</Text>
               <Image boxSize="200px" fit="cover" src={Europa} />
               <Heading fontSize={35}>EUROPA</Heading>
               <Text fontSize={15}>
@@ -72,7 +72,7 @@ const Destination = () => {
               </Text>
             </TabPanel>
             <TabPanel>
-              <Text fontSize={15}>01 PICK YOUR DESTENATION</Text>
+              <Text fontSize={15}className="main__text">01 PICK YOUR DESTENATION</Text>
               <Image boxSize="200px" fit="cover" src={Titan} />
               <Heading fontSize={35}>TITAN</Heading>
               <Text fontSize={15}>
