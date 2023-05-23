@@ -19,17 +19,20 @@ import {
 } from "@chakra-ui/react";
 const Destination = () => {
   return (
+    
     <ChakraProvider>
       <Box
-        bgImage={`url(${BackgroundImage})`} className="background"
-        bgSize="cover"
-        bgPosition="center"
-        bgRepeat="no-repeat"
-        minHeight="100vh"
+      
+         bgImage={`url(${BackgroundImage})`} className="background"
+        bgPosition="relative"
+         minHeight="100vh"
+        mt="-15%"
+        zIndex="-2"
+        
        
       >
         <Tabs defaultIndex={0} align="center"className="main" >
-          <TabList className="main__tabs" sx={{ borderBottom: "none" }}>
+          <TabList mt="20%" className="main__tabs" sx={{ borderBottom: "none" }}>
             <Tab>Moon</Tab>
             <Tab>Mars</Tab>
             <Tab>Europa</Tab>
