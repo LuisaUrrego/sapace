@@ -1,7 +1,50 @@
-.background{
-    margin:auto;
-    box-sizing: content-box;
-    width: 100%;
+.main {
     display: flex;
+    flex-direction: row;
+}
+
+.main__tabs {
+    margin: auto;
+    width: 15%;
     flex-direction: column;
+    }
+    
+    .tabs {
+    background-color: transparent;
+    border: 1px solid #757474;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 32px;
+    margin: 10px 0;
+    padding: 15px 25px;
+    width: fit-content;
+    }
+    
+    .tabs:active {
+    background-color: #fff;
+    color: #0b0d17;
+    opacity: 1;
+    }
+
+    .tabs:hover {
+    border: 1.5px solid #FFFFFF;
+    }
+
+.main__panels{
+    display: inline-block;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    margin: 30px 0 0;
+
+    &img{
+    min-height: 40vh;
+    max-height: 40vh;
+    margin-left: 0;
+    width: 100%;
+    margin: 30px 0;
+    }
 }
