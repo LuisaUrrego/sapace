@@ -58,9 +58,10 @@ const Destination = () => {
                       by visiting the Luna 2 and Apollo 11 landing sites.
                     </p>
                   </div>
+                  <hr className="main__separador"></hr>
                   <section className="main__text">
-                    <h5>01</h5>
-                    <h5>PICK YOUR DESTENATION</h5>
+                    <h5 className="main__number">01</h5>
+                    <h5 className="main__title_destination">PICK YOUR DESTENATION</h5>
                   </section>
                 </TabPanel>
                 <TabPanel className="main__moon">
@@ -79,8 +80,8 @@ const Destination = () => {
                     </p>
                   </div>
                   <section className="main__text">
-                    <h5>01</h5>
-                    <h5>PICK YOUR DESTENATION</h5>
+                    <h5  className="main__number">01</h5>
+                    <h5 className="main__title_destination">PICK YOUR DESTENATION</h5>
                   </section>
                 </TabPanel>
                 <TabPanel className="main__moon">
@@ -100,8 +101,8 @@ const Destination = () => {
                     </p>
                   </div>
                   <section className="main__text">
-                    <h5>01</h5>
-                    <h5>PICK YOUR DESTENATION</h5>
+                    <h5  className="main__number">01</h5>
+                    <h5 className="main__title_destination">PICK YOUR DESTENATION</h5>
                   </section>
                 </TabPanel>
                 <TabPanel className="main__moon">
@@ -121,8 +122,8 @@ const Destination = () => {
                     </p>
                   </div>
                   <section className="main__text">
-                    <h5>01</h5>
-                    <h5>PICK YOUR DESTENATION</h5>
+                    <h5  className="main__number">01</h5>
+                    <h5 className="main__title_destination">PICK YOUR DESTENATION</h5>
                   </section>
                 </TabPanel>
               </TabPanels>
