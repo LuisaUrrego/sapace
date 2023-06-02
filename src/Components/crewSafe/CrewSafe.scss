@@ -1,0 +1,152 @@
+body {
+    background-image: url("../../assets/crew/background-crew-desktop.jpg");
+}
+
+.crew__container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 100px;
+    padding: 0;
+    margin: 0;
+
+    h1 {
+        margin-left: 40px;
+        font-size: 30px;
+        margin-top: -30px;
+    }
+
+    span {
+        color: rgb(134, 134, 134);
+    }
+
+
+    h3 {
+        margin-left: -150px;
+        font-size: 55px;
+        margin-top: 20px;
+        color: rgb(134, 134, 134);
+    }
+
+    h2 {
+        margin-left: -150px;
+        font-size: 70px;
+        margin-top: 40px;
+
+    }
+
+    p {
+        margin-left: 30px;
+        font-size: 18px;
+        margin-top: 40px;
+        width: 60%;
+    }
+
+}
+
+.crew__left {
+    margin-left: -60px;
+}
+
+.crew__info {
+    margin-top: -40px;
+}
+
+
+button {
+    // display:flex;
+    // flex-direction: column;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 90px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.25;
+}
+
+.lista__botones {
+    display: flex;
+    margin-left: 60px;
+
+
+}
+
+
+
+.button__slider {
+
+
+    // flex-direction:row-reverse;
+
+    font-size: 12px;
+    margin-left: 25px;
+
+
+
+}
+
+@media (max-width:850px) {
+
+    body {
+        background-image: url("../../assets/crew/background-crew-tablet.jpg");
+       width: 100%;
+        height:auto;   
+    }
+
+    .crew__container {
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+        margin-left: 100px;
+    
+        
+    h1 {
+        margin-left: -380px;
+        font-size: 22px;
+        margin-top: -50px;
+    }
+
+    h2{
+        font-size: 50px;
+    }
+
+
+        p {
+            margin-left: 120px;
+            font-size: 18px;
+            margin-top: 40px;
+            width: 60%;
+        }
+
+
+    }
+
+    .crew__info {
+        margin-top: -10px;
+    }
+
+    .lista__botones {
+        display: flex;
+        margin-left: 220px;
+        margin-top: 40px;
+  
+    
+    
+    }
+
+}
+
+// @media (max-width:375px){
+
+    
+//     body {
+//         background-image: url("../../assets/crew/background-crew-mobile.jpg");
+//        width: 100%;
+//         height:auto;   
+//     }
+
+
+// }
