@@ -1,125 +1,107 @@
-
-// import Subheading from "./Subheading";
-import { useState } from "react";
-import background from "./../../assets/crew/background-crew-desktop.jpg";
-import "../../Components/crew/Crew.scss";
+import React from "react";
 import douglas from "../../assets/crew/image-douglas-hurley.webp";
-import "./Crew.scss"
+import mark from "../../assets/crew/image-mark-shuttleworth.webp";
+import victor from "../../assets/crew/image-victor-glover.webp";
+import ansari from "../../assets/crew/image-anousheh-ansari.webp";
+import BackgroundImage from "../../assets/crew/background-crew-desktop.jpg";
+import "./Crew.scss";
+import {
+  Tabs,
+  TabList,
+  TabPanels,
+  Tab,
+  TabPanel,
+  Image,
+  Heading,
+  Text,
+  Box,
+} from "@chakra-ui/react";
+const Destination = () => {
+  return (
+    
+    
+      <Box
+      
+         bgImage={`url(${BackgroundImage})`} className="background"
+        bgPosition="relative"
+         minHeight="100vh"
+        mt="-15%"
+        zIndex="-2"
+        
+       
+      >
+        <Tabs defaultIndex={0} align="center"className="main" >
+          {/* <TabList mt="20%" className="main__tabs" sx={{ borderBottom: "none" }}>
+            <Tab>.</Tab>
+            <Tab>.</Tab>
+            <Tab>.</Tab>
+            <Tab>.</Tab>
+          </TabList> */}
+          <TabPanels align="initial"  className="main__text">
+            <TabPanel className="main__text">
+             
+              <Text fontSize={30} >02 MEET YOUR CREW</Text>
+              <Text fontSize={25} >COMMANDER</Text>
+              <Heading fontSize={40}>DOUGLAS HURLEY</Heading>
+              <Text fontSize={20} className="pText">
+              Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.
+              </Text>
+              
+              
+              <Image boxSize="200px" fit="cover" src={douglas} className="imagen" />
+              
+              </TabPanel>
 
 
-const crewUsers = () => {
-    const crewList = [
-        {
-            "id": 0,
-            "name": "Douglas Hurley",
-            "images": {
-                "webp": "../../assets/crew/image-douglas-hurley.webp"
-            },
-            "role": "Commander",
-            "bio": "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2."
-        },
-
-        {
-            "id": 1,
-            "name": "Mark Shuttleworth",
-            "images": {
-                "webp": "../../assets/crew/image-mark-shuttleworth.webp"
-            },
-            "role": "Mission Specialist",
-            "bio": "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist."
-        },
-
-        {
-            "id": 2,
-            "name": "Victor Glover",
-            "images": {
-                "webp": "../../assets/crew/image-victor-glover.webp"
-            },
-            "role": "Pilot",
-            "bio": "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer."
-        },
-        {
-            "id": 3,
-            "name": "Anousheh Ansari",
-            "images": {
-                "webp": "../../assets/crew/image-anousheh-ansari.webp"
-            },
-            "role": "Flight Engineer",
-            "bio": "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space."
-        }
-    ];
-
-
-    // const [setCrewId] = useState(0);
-
-
-
-
-    // const change = (id) => {
-    //     setCrewId(id);
-    // }
-    // useEffect(() => {
-    //     const list = document.querySelectorAll('.pagination-crew span');
-    // 	for (let i = 0; i < list.length; i++) {
-    // 		list[i].classList.remove('active-dot');
-    // 	}
-    //     list[crewId].classList.add("active-dot");
-    // }, [crewId]);
-
-
-
-
-    return (
-
-        <>
-
-            <container className="container">
-
-
-                <h2> <span className="itemSpan">02</span> MEET YOUR CREW </h2>
-                <div className="crew">
-
-                    <div className="infoArticle">
-
-                        <h3 className="subheading">
-                            COMMANDER
-                        </h3>
-
-                        <h1>
-                            DOUGLAS HURLEY
-                        </h1>
-
-                        <p>
-                            Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.
-                        </p>
-                    </div>
-
-
-                    <figure className='crew-img'>
-                        <img src={douglas} alt='imagedouglas' />
-                    </figure>
-                </div>
-
-
-                {/* Pagination */}
-                <div className="pagination-crew">
-                    <span >
-                        .</span>
-                    <span >.</span>
-                    <span  >.</span>
-                    <span >.</span>
-                </div>
-
-            </container>
+            <TabPanel className="main__text">
+              
+              <Text fontSize={30}>02 MEET YOUR CREW</Text>
+              <Text fontSize={25}>MISSION SPECIALIS</Text>
+              <Heading fontSize={40}>MARK SHUTTLEWORTH </Heading>
+              <Text fontSize={20} className="pText">
+              Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.
+              </Text>
+              
+              
+              <Image boxSize="200px" fit="cover" src={mark} />
+              
+            </TabPanel>
+            <TabPanel>
+              <Text fontSize={30}>02 MEET YOUR CREW</Text>
+              <Text fontSize={25}>PILOT</Text>
+              <Heading fontSize={40}>VICTOR GLOBER</Heading>
+              <Text fontSize={20} className="pText">
+              Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer.
+              </Text>
+              <Image boxSize="200px" fit="cover" src={victor} />
+            </TabPanel>
+            <TabPanel>
+              <Text fontSize={30}>02 MEET YOUR CREW</Text>
+              <Text fontSize={25}>FLIGHT ENGINEER</Text>
+              <Heading fontSize={40}>ANOUSHEH ANSARI</Heading>
+              <Text fontSize={20} className="pText">
+                The only moon known to have a dense atmosphere other than Earth,
+                Titan is a home away from home (just a few hundred degrees
+                colder!). As a bonus, you get striking views of the Rings of
+                Saturn.
+              </Text>
+              <Image boxSize="200px" fit="cover" src={ansari} />
+            </TabPanel>
+          </TabPanels>
+          <TabList mt="0%" className="main__tabs" sx={{ borderBottom: "none" }}>
+            <Tab>.</Tab>
+            <Tab>.</Tab>
+            <Tab>.</Tab>
+            <Tab>.</Tab>
+          </TabList>
 
 
           
-
-        </>
-    )
-}
+        </Tabs>
+      </Box>
 
 
+  );
+};
 
-
-export default crewUsers;
+export default Destination;
