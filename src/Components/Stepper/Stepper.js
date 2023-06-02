@@ -11,6 +11,7 @@ import {
     useSteps,
     Box,
 } from "@chakra-ui/react";
+
 import './stepper.scss';
 
 const steps = [

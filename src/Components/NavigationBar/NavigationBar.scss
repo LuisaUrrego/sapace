@@ -1,5 +1,4 @@
 * {
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
     // background-color: black;
@@ -24,8 +23,8 @@
 .navMenu {
     display: flex;
     width: 100%;
-    background-color:hsl(250, 0%, 0%);
-    // background-color: hsl(hue, saturation, lightness);
+    backdrop-filter: blur(81.5485px);
+    background: hsla(0,0%,100%,.1);
     color: white;
     // opacity: 65%;
     gap: 10px;
