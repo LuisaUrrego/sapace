@@ -1,11 +1,11 @@
 import React from "react";
 import background from "../../assets/technology/background-technology-desktop.jpg";
 import launchPortrait from "../../assets/technology/image-launch-vehicle-portrait.jpg";
-import launchLandscape from "../../assets/technology/image-launch-vehicle-landscape.jpg";
 import spaceportPortrait from "../../assets/technology/image-spaceport-portrait.jpg";
-import spaceportLandscape from "../../assets/technology/image-spaceport-landscape.jpg";
 import capsulePortrait from "../../assets/technology/image-space-capsule-portrait.jpg";
-import capsuleLandscape from "../../assets/technology/image-space-capsule-landscape.jpg";
+// import spaceportLandscape from "../../assets/technology/image-spaceport-landscape.jpg";
+// import capsuleLandscape from "../../assets/technology/image-space-capsule-landscape.jpg";
+// import launchLandscape from "../../assets/technology/image-launch-vehicle-landscape.jpg";
 import "./Technology.scss";
 import {
     Tabs,
@@ -37,13 +37,13 @@ const Technology = () => {
 
             <TabPanels align="initial" className="main__panels">
                 <TabPanel className="main__text">
-                    <Text fontSize={28}>03 SPACE LAUNCH 101</Text>
-                    <Text fontSize={16}>THE TERMINOLOGY OF</Text>
-                    <Image boxSize="400px" fit="cover" position="absolute" ml="45%" src={launchPortrait} />
-                    <Heading fontSize={36}>LAUNCH VEHICLE</Heading>
-                    <Text fontSize={18}>
+                <Text fontSize={28}>03 SPACE LAUNCH 101</Text>
+                <Text fontSize={16}>THE TERMINOLOGY OF</Text>
+                <Image boxSize="400px" fit="cover" position="absolute" ml="45%" src={launchPortrait} />
+                <Heading style={{ fontSize: 36, marginLeft: 0 }}>LAUNCH VEHICLE</Heading>
+                <Text fontSize={18}>
                     A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!
-                    </Text>
+                </Text>
                 </TabPanel>
                 <TabPanel>
                     <Text fontSize={28}>03 SPACE LAUNCH 101</Text>
