@@ -1,11 +1,5 @@
-.homepage img{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin-top: -44%;
-    height: 100vh;
-    z-index: -2;
+body{
+    background-image: url('../../assets/home/background-home-desktop.jpg');
 }
 
 #heading{
@@ -26,7 +20,8 @@ h1{
 }
 .home-text{
     margin-left: 3vw;
-    margin-top: 80px;
+  margin-top: 261px;
+
 }
 .home-text p{
     font-weight: 400;
@@ -51,7 +46,7 @@ h1{
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    margin: 50px 0 30px;
+    margin: 5px 0 30px;
     cursor: pointer;
 }
 .explore-btn::after{
