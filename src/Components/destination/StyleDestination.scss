@@ -62,6 +62,7 @@
     width: 90%;
     margin-left: 551px;
     padding: 20px;
+    
   }
   &__number {
     font-family: $family-terciary;
@@ -77,17 +78,17 @@
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
-    line-height: 34px;
+    line-height: 34px;   
     letter-spacing: 4.725px;
     text-transform: uppercase;
     color: $color-primary;
   }
   &__separador {
     position: absolute;
-    left: 30%;
-    top: 98.93%;
-    width: 250px;
+left: 30%;
+top: 98.93%;
+width: 250px;
 
-    background: #383b4b;
+background: #383B4B;
   }
 }

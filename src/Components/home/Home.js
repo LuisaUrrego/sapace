@@ -2,6 +2,7 @@ import React from "react";
 import BackgroundHome from "../../assets/home/background-home-desktop.jpg";
 import "../home/Home.scss";
 
+
 const Home = () => {
     return (
         <div className="homepage">
@@ -15,9 +16,6 @@ const Home = () => {
                     experience.
                 </p>
             </article>
-            <figure className='backgroundHome'>
-                <img src={BackgroundHome} alt='BackgroundHome' />
-            </figure>
             <button className="explore-btn">
                 Explore
             </button>
