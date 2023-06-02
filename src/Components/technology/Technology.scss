@@ -1,6 +1,25 @@
 .main {
     display: flex;
     flex-direction: row;
+
+    @media (max-width: 1440px) {
+    display: flex;
+
+        h2 {
+        font-size: 1.2rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        width: 243px;
+        h2 {
+            font-size: 1.2rem;
+            }
+        }
+        
+        @media (max-width: 426px) {
+            width: 215px;
+        }
 }
 
 .main__tabs {
@@ -21,15 +40,14 @@
     width: fit-content;
     }
     
-    .tabs:active {
-    background-color: #fff;
-    color: #0b0d17;
-    opacity: 1;
-    }
-
     .tabs:hover {
     border: 1.5px solid #FFFFFF;
     }
+    .tabs:active {
+    background-color: #fff;
+    color: #0b0d17;
+    }
+
 
 .main__panels{
     display: inline-block;
@@ -39,6 +57,27 @@
     line-height: 19px;
     letter-spacing: 2.7px;
     margin: 30px 0 0;
+
+    .main__title{
+        margin-bottom: 50px;
+        margin-left: -140px;
+        font-size: 1.2rem;
+        color: #fff;
+
+        @media (max-width: 1440px) {
+            margin-left: -130px;
+            }
+        
+        @media (max-width: 768px) {
+            margin-left: -100px;
+            }
+                
+        // @media (max-width: 426px) {
+        //     margin-bottom: 50px;
+        //     margin-left: -140px;
+        //     font-size: 1.2rem;
+        // }
+    }
 
     h2{
         padding: 0px;
@@ -50,5 +89,11 @@
     margin-left: 0;
     width: 100%;
     margin: 30px 0;
+
+    @media (max-width: 768px) {
+        margin-left: -10px;
+        width: 100vh;
+        // margin: 30px 0;
+        }
     }
 }
