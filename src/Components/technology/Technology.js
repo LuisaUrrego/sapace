@@ -1,11 +1,11 @@
 import React from "react";
 import background from "../../assets/technology/background-technology-desktop.jpg";
 import launchPortrait from "../../assets/technology/image-launch-vehicle-portrait.jpg";
-import launchLandscape from "../../assets/technology/image-launch-vehicle-landscape.jpg";
 import spaceportPortrait from "../../assets/technology/image-spaceport-portrait.jpg";
-import spaceportLandscape from "../../assets/technology/image-spaceport-landscape.jpg";
 import capsulePortrait from "../../assets/technology/image-space-capsule-portrait.jpg";
-import capsuleLandscape from "../../assets/technology/image-space-capsule-landscape.jpg";
+// import spaceportLandscape from "../../assets/technology/image-spaceport-landscape.jpg";
+// import launchLandscape from "../../assets/technology/image-launch-vehicle-landscape.jpg";
+// import capsuleLandscape from "../../assets/technology/image-space-capsule-landscape.jpg";
 import "./Technology.scss";
 import {
     Tabs,
