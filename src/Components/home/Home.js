@@ -1,6 +1,6 @@
 import React from "react";
 import BackgroundHome from "../../assets/home/background-home-desktop.jpg";
-import "../home/home.scss";
+import "../home/Home.scss";
 
 const Home = () => {
     return (
