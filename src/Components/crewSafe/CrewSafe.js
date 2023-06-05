@@ -70,7 +70,7 @@ export default function Crew() {
                         <ul className="lista__botones">
                             {crewList.map((item, index) => (
                                 <li key={index}>
-                                    <button 
+                                    <button
                                         onClick={() => setValue(index)}
                                         className={`${index === value}`}
                                     >
@@ -82,8 +82,8 @@ export default function Crew() {
                             ))}
                         </ul>
                     </article>
-                    <article >
-                        <img src={images} alt="imagen tripulación"/>
+                    <article className="container__image">
+                        <img src={images} alt="imagen tripulación" />
                     </article>
                 </div>
             </section>

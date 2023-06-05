@@ -1,24 +1,25 @@
-// .background{
-//     background-image: url("../../assets/crew/background-crew-desktop.jpg");
-//     background-size: cover;
-//     background-position: center;
-// }
+
 .crew{
     background-image: url("../../assets/crew/background-crew-desktop.jpg");
     background-size: cover;
     background-position: center;
+   height: auto;
 }
+
+
 .crew__container img{
     height: 60%;
     margin-top: 30%;
+    
 }
 
 .crew__container {
     display: flex;
     justify-content: flex-end;
     gap: 10px;
-    // padding: 0;
-    // margin: 0;
+    
+ 
+ 
 
     h1 {
         margin-left: 60px;
@@ -52,7 +53,8 @@
 }
 
 .crew__left {
-    margin-left: -60px;
+    margin-left: -30px;
+    
 }
 
 // .crew__info {
@@ -88,10 +90,16 @@ button {
 
 @media (max-width:850px) {
 
-    body {
+    // body {
+    //     background-image: url("../../assets/crew/background-crew-tablet.jpg");
+    //     width: 100%;
+    //     height:auto;   
+    // }
+
+    .crew{
         background-image: url("../../assets/crew/background-crew-tablet.jpg");
         width: 100%;
-        height:auto;   
+        height:auto;
     }
 
     .crew__container {
@@ -99,12 +107,13 @@ button {
         width: 80%;
         text-align: center;
         margin-left: 100px;
+        
     
         
     h1 {
         margin-left: -380px;
         font-size: 22px;
-        margin-top: -50px;
+        margin-top: 120px;
     }
 
     h2{
@@ -112,7 +121,8 @@ button {
     }
 
         p {
-            margin-left: 120px;
+            text-align:justify;
+            margin-left: 160px;
             font-size: 18px;
             margin-top: 40px;
             width: 60%;
@@ -125,7 +135,15 @@ button {
 
     .lista__botones {
         display: flex;
-        margin-left: 220px;
+        margin-left: 280px;
         margin-top: 40px;
+       
+    }
+
+    .container__image{
+        img{
+            width: 60%;
+            margin-top:40px;
+        }
     }
 }
