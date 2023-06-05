@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import background from "./../../assets/crew/background-crew-desktop.jpg";
+// import background from "./../../assets/crew/background-crew-desktop.jpg";
 import "../../Components/crewSafe/CrewSafe.scss";
-import douglas from "../../assets/crew/image-douglas-hurley.webp";
+// import douglas from "../../assets/crew/image-douglas-hurley.webp";
 import { BsCircleFill } from "react-icons/bs";
 import "./CrewSafe.scss"
 

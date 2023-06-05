@@ -1,5 +1,4 @@
 import React from "react";
-import BackgroundHome from "../../assets/home/background-home-desktop.jpg";
 import "../home/Home.scss";
 
 
