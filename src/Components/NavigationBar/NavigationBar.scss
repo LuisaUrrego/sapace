@@ -109,6 +109,8 @@
     padding: 55px 24px 142px 10px;
     align-items: center;
     justify-content: space-between;
+    position: absolute;
+    z-index: 1;
     
   }
   
@@ -116,10 +118,7 @@
     border-radius: 80px;
   }
   
-  .hamburger {
-    cursor: pointer;
-    margin-left: 250px;
-  }
+  
   
   .desktopHr {
     width: 50vw;
@@ -149,20 +148,46 @@
     align-items: center;
     text-align: center;
     list-style: none;
-    width: 700px;
+    width: 777px;
     height: 67px;
+    li{
+      list-style: none;
+      padding: 41px;
+      font-size: 16px;
+     
+     
+  }
+  a{
+    text-decoration: none;
+    gap: 19px;
+      display: inline-flex;
+  }
   }
   
   .showMenu {
-    display: flex;
-    padding: 10px 20px 30px 40px;
+   display: flex;
+    padding: 297px 184px 1616px 52px;
     width: min-content;
+    margin-left: 293px;
+    position: absolute;
+    top: 5px;
+    justify-content: unset;
+    align-items: flex-start;
 
   }
   
-  @media screen and (min-width: 375px) {
+.hamburger {
+  cursor: pointer;
+  margin-left: 656px;
+  width: 50px;
+  position: absolute;
+  z-index: 1
+}
+  
+  @media screen and (min-width: 376px) {
     .hamburger {
       display: none;
+     
     }
   
     .desktopHr {
@@ -175,6 +200,7 @@
       justify-content: space-between;
       background: none;
       padding: 0;
+      
       
     }
   }
