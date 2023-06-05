@@ -86,11 +86,41 @@ h1 {
   left: -53px;
 }
 
+<<<<<<< HEAD
 h1 {
   margin-left: 260px;
   position: absolute;
   top: 272px;
 }
+=======
+  #heading{
+    margin-left: -210px;
+    position: absolute;
+    top: 247px;
+  
+  }
+  h1{
+    margin-left: 260px;
+    position: absolute;
+    top: 272px;
+}
+  
+  .explore-btn{ 
+    cursor: pointer;
+    left: 71vw;
+    top: 65%;
+  }
+  .home-text p{
+    position: absolute;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin-left: -248px;
+    left: 73vw;
+    top: 42%;
+  }
+
+>>>>>>> bfbfd0e35030b8f6bcd3602ffba7d280449c4843
 
 .explore-btn {
   cursor: pointer;
