@@ -137,7 +137,6 @@ button {
         display: flex;
         margin-left: 280px;
         margin-top: 40px;
-       
     }
 
     .container__image{
@@ -145,5 +144,67 @@ button {
             width: 60%;
             margin-top:40px;
         }
+
+    .button__slider {
+        display: none;
+        }
     }
-}
+    }
+
+@media (max-width:376px) {
+
+        // body {
+        //     background-image: url("../../assets/crew/background-crew-tablet.jpg");
+        //     width: 100%;
+        //     height:auto;   
+        // }
+    
+        .crew{
+            background-image: url("../../assets/crew/background-crew-tablet.jpg");
+            width: 100%;
+            height:auto;
+        }
+    
+        .crew__container {
+            flex-direction: column;
+            // width: 80%;
+            text-align: center;
+            margin-left: 100px;
+            
+        h1 {
+            margin-left: -380px;
+            font-size: 22px;
+            margin-top: 120px;
+        }
+    
+        h2{
+            font-size: 50px;
+        }
+    
+        p {
+            text-align:justify;
+            margin-left: 160px;
+            font-size: 18px;
+            margin-top: 40px;
+            width: 120%;
+        }
+    
+        }
+        .crew__info {
+            margin-top: -10px;
+        }
+    
+        .lista__botones {
+            display: flex;
+            margin-left: 150px;
+            margin-top: 40px;
+        }
+    
+        .container__image{
+            img{
+                height: auto;
+                margin-top: 20%;
+                margin-left: 20%;
+            }
+        }
+    }
