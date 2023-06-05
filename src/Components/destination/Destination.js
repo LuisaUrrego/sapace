@@ -54,7 +54,7 @@ const Destination = () => {
                       by visiting the Luna 2 and Apollo 11 landing sites.
                     </p>
                   </div>
-                  
+                  <hr className="main__separador"></hr>
                   <section className="main__text">
                     <h5 className="main__number">01</h5>
                     <h5 className="main__title_destination">PICK YOUR DESTINATION</h5>
