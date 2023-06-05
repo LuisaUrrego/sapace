@@ -1,14 +1,22 @@
 @import "Fonts.scss";
 @import "Variables.scss";
 
+// .main__destination {
+//   padding: 4px 35px 15px 246px;
+// }
+
 .main {
   padding: 4px 35px 15px 246px;
-  //   &__main__tabPanels{
-  //   }
+
+  .main__information{
+    gap: 15px;
+    font-size: 1rem;
+  }
   &__tabs {
     color: $color-primary;
     margin-left: 20rem;
     padding-top: 41px;
+
     &::after {
       content: "";
       position: absolute;
@@ -29,7 +37,7 @@
 
   &__text {
     display: flex;
-    left: 15%;
+    left: 10%;
     right: 1.57%;
     line-height: 34px;
     margin-top: -439px;
@@ -44,7 +52,7 @@
   &__name__planet h2 {
     display: flex;
     color: $color-primary;
-    margin-left: 370px;
+    margin-left: 315px;
     margin-top: 54px;
     font-size: 5rem;
     position: absolute;
@@ -55,8 +63,9 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    margin-top: -202px;
-    margin-left: -15px;
+    margin-top: -160px;
+    margin-left: -248px;
+    width: 70%;
   }
   &__container_description {
     width: 90%;

@@ -11,15 +11,11 @@ import {
   TabPanels,
   Tab,
   TabPanel,
-  Image,
-  ChakraProvider,
-  Heading,
-  Text,
   Box,
 } from "@chakra-ui/react";
 const Destination = () => {
   return (
-    <ChakraProvider>
+    <>
       <Box
         bgImage={`url(${BackgroundImage})`}
         className="background"
@@ -28,11 +24,11 @@ const Destination = () => {
         mt="-15%"
         zIndex="-2"
       >
-        <main className="main">
+        <main className="main__destination">
           <Tabs mt="20%" defaultIndex={0} align="center">
             <section className="main__information">
               <div className="main__tabs">
-                <TabList  sx={{ "& > [data-active]": { "&:hover": { color: "inherit" } }, borderBottom: "none" }}>
+                <TabList  sx={{ "& > [data-active]": { "&:hover": { color: "inherit" } }, borderBottom: "none", gap: "30px", fontSize: "24px" }}>
                   <Tab>Moon</Tab>
                   <Tab>Mars</Tab>
                   <Tab>Europa</Tab>
@@ -61,7 +57,7 @@ const Destination = () => {
                   <hr className="main__separador"></hr>
                   <section className="main__text">
                     <h5 className="main__number">01</h5>
-                    <h5 className="main__title_destination">PICK YOUR DESTENATION</h5>
+                    <h5 className="main__title_destination">PICK YOUR DESTINATION</h5>
                   </section>
                 </TabPanel>
                 <TabPanel className="main__moon">
@@ -81,7 +77,7 @@ const Destination = () => {
                   </div>
                   <section className="main__text">
                     <h5  className="main__number">01</h5>
-                    <h5 className="main__title_destination">PICK YOUR DESTENATION</h5>
+                    <h5 className="main__title_destination">PICK YOUR DESTINATION</h5>
                   </section>
                 </TabPanel>
                 <TabPanel className="main__moon">
@@ -102,7 +98,7 @@ const Destination = () => {
                   </div>
                   <section className="main__text">
                     <h5  className="main__number">01</h5>
-                    <h5 className="main__title_destination">PICK YOUR DESTENATION</h5>
+                    <h5 className="main__title_destination">PICK YOUR DESTINATION</h5>
                   </section>
                 </TabPanel>
                 <TabPanel className="main__moon">
@@ -123,7 +119,7 @@ const Destination = () => {
                   </div>
                   <section className="main__text">
                     <h5  className="main__number">01</h5>
-                    <h5 className="main__title_destination">PICK YOUR DESTENATION</h5>
+                    <h5 className="main__title_destination">PICK YOUR DESTINATION</h5>
                   </section>
                 </TabPanel>
               </TabPanels>
@@ -131,7 +127,7 @@ const Destination = () => {
           </Tabs>
         </main>
       </Box>
-    </ChakraProvider>
+    </>
   );
 };
 

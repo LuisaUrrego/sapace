@@ -1,11 +1,8 @@
 import React, { useState } from "react";
-// import background from "./../../assets/crew/background-crew-desktop.jpg";
-import "../../Components/crewSafe/CrewSafe.scss";
-// import douglas from "../../assets/crew/image-douglas-hurley.webp";
+// import Background from "./../../assets/crew/background-crew-desktop.jpg";
+// import { Box } from "@chakra-ui/layout";
 import { BsCircleFill } from "react-icons/bs";
 import "./CrewSafe.scss"
-
-
 
 
 const crewList = [
@@ -54,88 +51,12 @@ export default function Crew() {
     const { name, images, role, bio } = crew[value]
     console.log(images);
 
-    // const [activeSlider, setActiveSlider] = useState (crewList[0]);
-
-    // const handleSliderChange = (sliderId) =>{
-    //     const selectedSlider = crewList.find ((slider) => crewList.id === sliderId)
-    //     setActiveSlider (selectedSlider);
-    //     console.log(selectedSlider);
-
-    // };
-
-
-    // const [setCrewId] = useState(0);
-
-
-
-
-    // const change = (id) => {
-    //     setCrewId(id);
-    // }
-    // useEffect(() => {
-    //     const list = document.querySelectorAll('.pagination-crew span');
-    // 	for (let i = 0; i < list.length; i++) {
-    // 		list[i].classList.remove('active-dot');
-    // 	}
-    //     list[crewId].classList.add("active-dot");
-    // }, [crewId]);
-
-
-
-
     return (
-
         <>
-
-            {/* <container className="container"> */}
-
-
-            {/* <h2> <span className="itemSpan">02</span> MEET YOUR CREW </h2>
-                <div className="crew">
-
-                    <div className="infoArticle">
-
-                        <h3 className="subheading">
-                            COMMANDER
-                        </h3>
-
-                        <h1>
-                            DOUGLAS HURLEY
-                        </h1>
-
-                        <p>
-                            Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.
-                        </p>
-                    </div>
-
-
-                    <figure className='crew-img'>
-                        <img src={douglas} alt='imagedouglas' />
-                    </figure>
-                </div> */}
-
-
-            {/* Pagination */}
-            {/* <div className="pagination-crew">
-                    <button
-                        key={slider.id}
-                        onClick={()=> handleSliderChange(slider)} 
-                        className={activeSlider.id === slider.id ? "active" : ""}      >
-                    </button>
-                    
-                    
-                    <span >.</span>
-                    <span >.</span>
-                    <span  >.</span>
-                    <span >.</span>
-                </div> */}
-
-
-
-            {/* </container> */}
-
+            {/* <figure>
+            <img src={Background} className="background" alt="background" />
+            </figure> */}
             <section className="crew">
-
                 <div className="crew__container ">
                     <article className="crew__left">
                         <h1>
@@ -149,7 +70,7 @@ export default function Crew() {
                         <ul className="lista__botones">
                             {crewList.map((item, index) => (
                                 <li key={index}>
-                                    <button
+                                    <button 
                                         onClick={() => setValue(index)}
                                         className={`${index === value}`}
                                     >
@@ -158,34 +79,14 @@ export default function Crew() {
                                         </div>
                                     </button>
                                 </li>
-
                             ))}
                         </ul>
                     </article>
-
                     <article >
-
-                        <img src={images} />
-
-
+                        <img src={images} alt="imagen tripulación"/>
                     </article>
                 </div>
             </section>
-
-
-
-
-
-
-
-
-
-
         </>
     )
 }
-
-
-
-
-// export default Crew;
