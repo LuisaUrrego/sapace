@@ -66,10 +66,6 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    opacity: 0.25;
-}
-
 .lista__botones {
     display: flex;
     margin-left: 80px;
@@ -80,6 +76,9 @@ button:hover {
     // flex-direction:row-reverse;
     font-size: 12px;
     margin-left: 25px;
+    .button__slider:hover {
+        opacity: 0.25;
+    }
 }
 
 @media (max-width:850px) {
