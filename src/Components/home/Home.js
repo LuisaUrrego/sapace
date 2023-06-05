@@ -5,7 +5,8 @@ import "../home/Home.scss";
 
 const Home = () => {
     return (
-        <div className="homepage">
+        <div className="homepage" 
+          >
             <article className="home-text">
                 <span id="heading">So, You want to travel to</span>
                 <h1>Space</h1>

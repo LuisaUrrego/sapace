@@ -109,6 +109,8 @@
     padding: 55px 24px 142px 10px;
     align-items: center;
     justify-content: space-between;
+    position: absolute;
+    z-index: 1;
     
   }
   
@@ -149,7 +151,7 @@
     align-items: center;
     text-align: center;
     list-style: none;
-    width: 700px;
+    width: 777px;
     height: 67px;
   }
   
@@ -160,7 +162,7 @@
 
   }
   
-  @media screen and (min-width: 375px) {
+  @media screen and (min-width: 376px) {
     .hamburger {
       display: none;
     }
