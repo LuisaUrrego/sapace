@@ -39,7 +39,7 @@ const Technology = () => {
                 <TabPanel>
                 <Text fontSize={28} className="main__technology-title">03 SPACE LAUNCH 101</Text>
                 <Text fontSize={16}>THE TERMINOLOGY OF</Text>
-                <Image boxSize="400px" fit="cover" position="absolute" ml="45%" src={launchPortrait} />
+                <Image boxSize="400px" fit="cover" position="absolute" m="45%" mt="-7%" src={launchPortrait} />
                 <Heading style={{ fontSize: 36, marginLeft: 0 }}>LAUNCH VEHICLE</Heading>
                 <Text fontSize={18}>
                     A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!
@@ -48,7 +48,7 @@ const Technology = () => {
                 <TabPanel>
                     <Text fontSize={28} className="main__technology-title">03 SPACE LAUNCH 101</Text>
                     <Text fontSize={16}>THE TERMINOLOGY OF</Text>
-                    <Image boxSize="400px" fit="cover" position="absolute" ml="45%" src={spaceportPortrait} />
+                    <Image boxSize="400px" fit="cover" position="absolute" ml="45%" mt="-7%" src={spaceportPortrait} />
                     <Heading fontSize={36}>SPACEPORT</Heading>
                     <Text fontSize={18}>
                     A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.
@@ -57,7 +57,7 @@ const Technology = () => {
                 <TabPanel>
                     <Text fontSize={28} className="main__technology-title">03 SPACE LAUNCH 101</Text>
                     <Text fontSize={16}>THE TERMINOLOGY OF</Text>
-                    <Image boxSize="400px" fit="cover" position="absolute" ml="45%" src={capsulePortrait} />
+                    <Image boxSize="400px" fit="cover" position="absolute" ml="45%" mt="-7%" src={capsulePortrait} />
                     <Heading fontSize={36}>SPACE CAPSULE</Heading>
                     <Text fontSize={18}>
                     A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.
