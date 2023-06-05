@@ -126,12 +126,18 @@ h1 {
     margin-left: 164px;
     font-size: 150px;
     top: 527px;
+    position: absolute;
   }
 
   .explore-btn {
     cursor: pointer;
     left: 122vw;
     top: 75%;
+  }
+
+  .explore-btn:hover::after {
+    width: 320px;
+    height: 310px;
   }
   .home-text p {
     position: absolute;
@@ -146,6 +152,7 @@ h1 {
     width: 688px;
   }
 }
+
 // @media (max-width: 850px) {
 
 //     .body{
