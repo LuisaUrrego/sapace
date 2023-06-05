@@ -28,38 +28,36 @@ const Technology = () => {
             bgRepeat="no-repeat"
             minHeight="100vh"
         >
-        <Tabs defaultIndex={0} align="center" className="main">
-            <TabList className="main__tabs" sx={{ borderBottom: "none" }}>
+        <Tabs defaultIndex={0} align="center" className="main__technology">
+            <TabList className="main__technology-tabs" sx={{ borderBottom: "none" }}>
                 <Tab className="tabs">1</Tab>
                 <Tab className="tabs">2</Tab>
                 <Tab className="tabs">3</Tab>
             </TabList>
 
-            <TabPanels align="initial" className="main__panels">
-                <TabPanel className="main__text">
-                <Text fontSize={28} className="main__title">03 SPACE LAUNCH 101</Text>
+            <TabPanels align="initial" className="main__technology-panels">
+                <TabPanel>
+                <Text fontSize={28} className="main__technology-title">03 SPACE LAUNCH 101</Text>
                 <Text fontSize={16}>THE TERMINOLOGY OF</Text>
-                <Image boxSize="400px" fit="cover" position="absolute" ml="45%" src={launchPortrait} />
-                {/* <Image boxSize="400px" fit="cover" position="absolute" ml="45%" src={launchLandscape}
-                display={{ base: 'block', md: 'none' }} /> */}
+                <Image boxSize="400px" fit="cover" position="relative" ml="45%" src={launchPortrait} />
                 <Heading style={{ fontSize: 36, marginLeft: 0 }}>LAUNCH VEHICLE</Heading>
                 <Text fontSize={18}>
                     A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!
                 </Text>
                 </TabPanel>
                 <TabPanel>
-                    <Text fontSize={28} className="main__title">03 SPACE LAUNCH 101</Text>
+                    <Text fontSize={28} className="main__technology-title">03 SPACE LAUNCH 101</Text>
                     <Text fontSize={16}>THE TERMINOLOGY OF</Text>
-                    <Image boxSize="400px" fit="cover" position="absolute" ml="45%" src={spaceportPortrait} />
+                    <Image boxSize="400px" fit="cover" position="relative" ml="45%" src={spaceportPortrait} />
                     <Heading fontSize={36}>SPACEPORT</Heading>
                     <Text fontSize={18}>
                     A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.
                     </Text>
                 </TabPanel>
                 <TabPanel>
-                    <Text fontSize={28} className="main__title">03 SPACE LAUNCH 101</Text>
+                    <Text fontSize={28} className="main__technology-title">03 SPACE LAUNCH 101</Text>
                     <Text fontSize={16}>THE TERMINOLOGY OF</Text>
-                    <Image boxSize="400px" fit="cover" position="absolute" ml="45%" src={capsulePortrait} />
+                    <Image boxSize="400px" fit="cover" position="relative" ml="45%" src={capsulePortrait} />
                     <Heading fontSize={36}>SPACE CAPSULE</Heading>
                     <Text fontSize={18}>
                     A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.

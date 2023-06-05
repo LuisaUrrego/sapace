@@ -1,6 +1,7 @@
-.main {
+.main__technology {
     display: flex;
     flex-direction: row;
+    width: 85%;
 
     @media (max-width: 1440px) {
     display: flex;
@@ -22,8 +23,8 @@
         }
 }
 
-.main__tabs {
-    margin: auto;
+.main__technology-tabs{
+    margin:10% -4% 0 0;
     width: 15%;
     flex-direction: column;
     }
@@ -49,23 +50,22 @@
     }
 
 
-.main__panels{
-    display: inline-block;
-    font-family: 'Barlow Condensed', sans-serif;
+.main__technology-panels{
+    display: flex;
+    font-family: "Barlow Condensed", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
     letter-spacing: 2.7px;
-    margin: 30px 0 0;
+    margin: 0% 0 0;
 
-    .main__title{
+    .main__technology-title{
         margin-bottom: 50px;
         margin-left: -140px;
         font-size: 1.2rem;
         color: #fff;
 
         @media (max-width: 1440px) {
-            margin-left: -130px;
+            margin-left: -100px;
             }
         
         @media (max-width: 768px) {
