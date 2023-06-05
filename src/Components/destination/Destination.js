@@ -21,14 +21,14 @@ const Destination = () => {
         className="background"
         bgPosition="relative"
         minHeight="100vh"
-        mt="-15%"
+        mt="-20%"
         zIndex="-2"
       >
         <main className="main__destination">
           <Tabs mt="20%" defaultIndex={0} align="center">
             <section className="main__information">
               <div className="main__tabs">
-                <TabList  sx={{ "& > [data-active]": { "&:hover": { color: "inherit" } }, borderBottom: "none", gap: "30px", fontSize: "24px" }}>
+                <TabList className="btn-tabs" sx={{ "& > [data-active]": { "&:hover": { color: "inherit" } }, borderBottom: "none", gap: "30px", fontSize: "24px" }}>
                   <Tab>Moon</Tab>
                   <Tab>Mars</Tab>
                   <Tab>Europa</Tab>

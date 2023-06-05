@@ -14,7 +14,7 @@ const AppRouter = () => {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path={"/space-tourims"} element={<Layout />}>
+          <Route path={"/"} element={<Layout />}>
             <Route index element={<Home />} />
             
                 <Route path="crew" element={<CrewSafe />} />

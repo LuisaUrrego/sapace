@@ -5,12 +5,19 @@
 //   padding: 4px 35px 15px 246px;
 // }
 
+.btn-tabs{
+position: relative;
+margin-top: 20%;
+z-index: 20;
+}
+
 .main {
   padding: 4px 35px 15px 246px;
 
   .main__information{
     gap: 15px;
     font-size: 1rem;
+    // margin-top: 20%;
   }
   &__tabs {
     color: $color-primary;
@@ -40,20 +47,21 @@
     left: 10%;
     right: 1.57%;
     line-height: 34px;
-    margin-top: -439px;
+    margin-top: -430px;
     margin-left: -103px;
+    position: relative;
   }
   &__figure img {
     width: 300px;
     height: auto;
-    margin-top: 3px;
-    margin-left: -72px;
+    margin-top: 0%;
+    margin-left: -42px;
   }
   &__name__planet h2 {
     display: flex;
     color: $color-primary;
     margin-left: 315px;
-    margin-top: 54px;
+    margin-top: 40px;
     font-size: 5rem;
     position: absolute;
   }
@@ -94,10 +102,9 @@
   }
   &__separador {
     position: absolute;
-left: 30%;
-top: 98.93%;
-width: 250px;
-
-background: #383B4B;
-  }
+    left: 30%;
+    top: 98.93%;
+    width: 250px;
+    background: #383B4B;
+      }
 }

@@ -8,6 +8,10 @@
     background-size: cover;
     background-position: center;
 }
+.crew__container img{
+    height: 60%;
+    margin-top: 30%;
+}
 
 .crew__container {
     display: flex;
@@ -19,7 +23,7 @@
     h1 {
         margin-left: 60px;
         font-size: 30px;
-        margin-top: -30px;
+        margin-top: 15%;
     }
 
     span {
@@ -29,7 +33,7 @@
     h3 {
         margin-left: 60px;
         font-size: 40px;
-        margin-top: 20px;
+        margin-top: -5%;
         color: rgb(134, 134, 134);
     }
 
@@ -62,14 +66,15 @@ button {
     border: none;
     background: transparent;
     color: white;
-    // font-size: 90px;
+    font-size: 24px;
     cursor: pointer;
+    z-index: 20;
 }
 
 .lista__botones {
     display: flex;
     margin-left: 80px;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .button__slider {
