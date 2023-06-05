@@ -87,14 +87,6 @@ left: 50%;
     left: -53px;
 }
 
-@media (max-width: 768px) {
- .homepage{
-  background-image: url("../../assets/home/background-home-tablet.jpg");
-  width: 145vw;
-  height: 142vw;
-  
- }
-
   #heading{
     margin-left: -210px;
     position: absolute;
@@ -107,9 +99,7 @@ left: 50%;
     top: 272px;
 }
   
-  .explore-btn{
-   
-   
+  .explore-btn{ 
     cursor: pointer;
     left: 71vw;
     top: 65%;
@@ -137,10 +127,6 @@ left: 50%;
     position: absolute;
     top: 477px;
     font-size: 35px;
-
- 
-   
-   
    }
    h1{
     margin-left: 164px;
@@ -149,8 +135,6 @@ left: 50%;
  }
    
    .explore-btn{
-    
-    
     cursor: pointer;
     left: 122vw;
     top: 75%;
